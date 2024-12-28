@@ -519,3 +519,126 @@ body {
 
 .untree_co-section {
   padding: 7rem 0; }
+
+  .form-control {
+    height: 50px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif; }
+    .form-control:active, .form-control:focus {
+      outline: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-color: #3b5d50;
+      -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2); }
+    .form-control::-webkit-input-placeholder {
+      font-size: 14px; }
+    .form-control::-moz-placeholder {
+      font-size: 14px; }
+    .form-control:-ms-input-placeholder {
+      font-size: 14px; }
+    .form-control:-moz-placeholder {
+      font-size: 14px; }
+  
+  
+        
+        footer {
+          color: #FFFFFF; /* White */
+          font-family: sans-serif;
+        }
+        
+        .w {
+          background-image: url(../images/drumpic/tom3.png);
+        }
+        
+        .a {
+          background-image: url(../images/drumpic/tom4.png);
+        }
+        
+        .s {
+          background-image: url(../images/drumpic/snare.png);
+        }
+        
+        .d {
+          background-image: url(../images/drumpic/tom1.png);
+        }
+        
+        .j {
+          background-image: url(../images/drumpic/tom2.png);
+        }
+        
+        .k {
+          background-image: url(../images/drumpic/crash.png);
+        }
+        
+        .l {
+          background-image: url(../images/drumpic/kick.png);
+        }
+        
+        .set {
+          margin: 10% auto;
+        }
+        
+        .game-over {
+          background-color: #FF0000; /* Red */
+          opacity: 0.8;
+        }
+        
+        .pressed {
+          box-shadow: 0 3px 4px 0 #FFFFFF; /* White */
+          opacity: 0.5;
+        }
+        
+        .red {
+          color: #FF0000; /* Red */
+        }
+        
+        .drum {
+          outline: none;
+          border: 10px solid #404B69;
+          font-size: 5rem;
+          font-family: 'Arvo', cursive;
+          line-height: 2;
+          font-weight: 900;
+          color: #283149;
+          text-shadow: 3px 0 #FFFFFF; /* White */
+          border-radius: 15px;
+          display: inline-block;
+          width: 150px;
+          height: 150px;
+          text-align: center;
+          margin: 10px;
+          background-color: #FFFFFF; /* White */
+        }
+      .carousel-item img {
+        width: 50%;
+      }
+      .piano-container {
+        max-width: 100%; /* Adjust the maximum width as needed */
+        overflow-x: auto;
+        white-space: nowrap;
+        background-color: aliceblue;
+        position: static;
+      }
+      .btn-dark{
+        color: white;
+      }
+  
+      .btn-light{
+        background-color: white;
+        color: black;
+      }
+  
+      .piano-key {
+        width: 10%;
+        height: 200px;
+        border: 1px solid #ccc;
+        display: inline-block;
+        text-align: center;
+        font-size: 5em;
+        line-height: 100px;
+      }
+      .accordion{
+        margin-left:  50px;
+        margin-right: 50px;
+      }
